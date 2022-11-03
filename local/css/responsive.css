@@ -1,0 +1,59 @@
+    @media only screen and (max-width: 1200px) {
+        .row {
+            padding: 0 2%;
+        }
+        #hero-text {
+            width: 100%;
+            padding: 0 2%;
+        }
+    }
+    @media only screen and (max-width: 1055px) {
+        body {
+            font-size: 18px;
+        }
+        #minimenu {
+            display: block !important;
+            float: right;
+        }
+        .main-nav {
+            display: none;
+            width: 100%;
+        }
+        .main-nav ul li {
+            width: 100%;
+            text-align: center;
+            padding: 5px;
+            background-color: #222;
+        }
+        .main-nav li a:link,
+        .main-nav li a:visited {
+            padding: 4px 0;
+        }
+    }
+    @media only screen and (max-width: 925px) {
+        body {
+            font-size: 16px;
+        }
+        #hero-text {
+            margin-left: 20px;
+        }
+        .col {
+            width: 100%;
+        }
+    }
+    @media only screen and (max-width: 690px) {
+        body {
+            font-size: 14px;
+        }
+        #hero-text {
+            margin-left: 40px;
+        }
+    }
+    @media only screen and (max-width: 530px) {
+        body {
+            font-size: 12px;
+        }
+        #hero-text {
+            margin-left: 60px;
+        }
+    }

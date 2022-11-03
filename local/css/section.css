@@ -1,0 +1,78 @@
+#repertoar {
+    background-color: #e8e8e8;
+}
+
+#repertoar .repertoar {
+    font-size: 80%;
+    margin-top: 30px;
+}
+
+#repertoar .display {
+    font-size: 80%;
+}
+
+#utisci {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/slavko-balac.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    text-align: justify;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite {
+    display: block;
+    font-size: 90%;
+    margin-top: 25px;
+}
+
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+#kontakt {
+    background-color: #e8e8e8;
+}
+
+#repertoar p,
+#kontakt p {
+    text-align: center;
+}
+
+#kontakt a {
+    font-size: 160%;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-facebook {
+    transition: color 0.2s;
+}

@@ -1,0 +1,59 @@
+#fix-menu {
+    position: fixed !important;
+    width: 100%;
+    height: 10%;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+#fix-menu.scrolled {
+    background-color: #222 !important;
+    transition: background-color 200ms linear;
+}
+
+#minimenu {
+    display: none;
+    float: right;
+    font-size: 36px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.main-nav {
+    float: right;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+.tel {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 90%;
+}

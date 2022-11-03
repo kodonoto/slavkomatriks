@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- NE ZABORAVI DA IZBACIŠ SVE KOMENTARE KADA ZAVRŠIŠ -->
+
+<head>
+    <meta charset="UTF-8">
+
+    <!--bitno za bootstrap-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="author" content="TipTopRobin">
+
+    <meta name="description" content="Slavko Matriks pruža usluge najma muzike za sve vrste proslava, događaja i žurki, kao i usluge najma ozvučenja i organizovanja karaoke zabava.">
+
+    <title>Slavko Matriks</title>
+
+    <!--vendor css-->
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="vendor/css/ionicons.min.css" type="text/css">
+    <link rel="stylesheet" href="vendor/css/datatables.min.css" type="text/css">
+    <!-- fontovi za tekst -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+    <!-- fontovi za logo -->
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet" />
+
+    <!--local css-->
+    <link rel="stylesheet" href="local/css/site.css" type="text/css">
+
+</head>
+
+<body>
+
+    <!--FIKSNA NAVIGACIJA-->
+    <!--    providni navbar od ivice do ivice-->
+    <nav id="fix-menu" class="navbar navbar-expand-lg fixed-top">
+
+        <!--Logo-link na početak-->
+        <div id="logo-link" class="logo-link navbar-brand ml-5">
+            <a href="#" class="nav-link">Slavko Matriks</a>
+        </div>
+
+        <!--hamburger za male ekrane-->
+        <button id="hamb" class="navbar-toggler" data-toggle="collapse" data-target="#menu-items" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="ion-navicon-round icon-small"></i></span>
+        </button>
+
+        <!--meni stavke-->
+        <div class="collapse navbar-collapse" id="menu-items">
+            <ul class="navbar-nav ml-auto mr-auto">
+                <li class="nav-item"><a href="#usluge" class="nav-link text-white">Usluge</a></li>
+                <li class="nav-item"><a href="#repertoar" class="nav-link text-white">Repertoar</a></li>
+                <li class="nav-item"><a href="#utisci" class="nav-link text-white">Utisci</a></li>
+                <li class="nav-item"><a href="#cenovnik" class="nav-link text-white">Cenovnik</a></li>
+                <li class="nav-item"><a href="#kontakt" class="nav-link text-white">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--NASLOV-->
+    <header id="header" class="jumbotron jumbotron-fluid">
+        <div id="hero-text" class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h1 class="jumbotron-heading">SLAVKO MATRIKS</h1>
+                    <br>
+                    <span class="lead"><i>MUZIKA PO MERI - ZA SVAKU PRILIKU</i></span>
+                    <br><br>
+                    <h6 id="nav-badge" class="badge badge-pill badge-warning text-center">Rezervacije: <strong>063-574-313</strong></h6>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </header>
+
+    <!--SEKCIJA USLUGE-->
+    <section id="usluge">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm">
+                    <h2 class="text-center">Sve na jednom mestu</h2>
+                    <p class="tekst text-center">
+                        Poštovanje!
+                        <br> Ako želite dobru muziku, <strong><em>Slavko Matriks</em></strong> pruža muzičke usluge za sve vrste proslava, događaja i žurki kao izvođač programa.
+                        <br> Takođe, omogućava iznajmljivanje ozvučenja i organizovanje karaoke zabava.
+                        <br> Dugogodišnje iskustvo, preko 50 sati repertoara i nesporni kvalitet su Vama na raspolaganju.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card-deck">
+                    <div class="card">
+                        <i class="ion-music-note icon-big"></i>
+                        <div class="card-title text-center">
+                            <h3>Muzika</h3>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>
+                                    <i class="ion-checkmark-round icon-small"></i> Rođenja, krštenja i rođendani
+                                </li>
+                                <li>
+                                    <i class="ion-checkmark-round icon-small"></i> Veridbe i svadbe
+                                </li>
+                                <li>
+                                    <i class="ion-checkmark-round icon-small"></i> Banketi, kokteli i korporativni događaji
+                                </li>
+                                <li>
+                                    <i class="ion-checkmark-round icon-small"></i> Mature i ispraćaji u penziju
+                                </li>
+                                <li>
+                                    <i class="ion-checkmark-round icon-small"></i> Nove godine i 8. mart
+                                </li>
+                                <li>
+                                    <i class="ion-checkmark-round icon-small"></i> Slave i druge proslave
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <i class="ion-mic-c icon-big"></i>
+                        <div class="card-title text-center">
+                            <h3>Karaoke</h3>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>
+                                    <i class="ion-checkmark-round icon-small"></i> Želite da pevate sami, ili sa Vašim društvom
+                                </li>
+                                <li>
+                                    <i class="ion-checkmark-round icon-small"></i> Najbolje profesionalne matrice Vam stoje na raspolaganju
+                                </li>
+                                <li>
+                                    <i class="ion-checkmark-round icon-small"></i> Kompletna oprema sa profesionalnim mikrofonima i ozvučenjem
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <i class="ion-speakerphone icon-big"></i>
+                        <div class="card-title text-center">
+                            <h3>Ozvučenje</h3>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>
+                                    <i class="ion-checkmark-round icon-small"></i> Ozvučite žurku, ili neki drugi Vama važan događaj
+                                </li>
+                                <li>
+                                    <i class="ion-checkmark-round icon-small"></i> Priredbe, nastupi i slični skupovi
+                                </li>
+                                <li>
+                                    <i class="ion-checkmark-round icon-small"></i> Kompletna oprema i profesionalna logistika obezbeđeni
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SEKCIJA REPERTOAR-->
+    <section id="repertoar">
+        <div id="repertoar-kontejner" class="container-fluid bg-secondary text-white">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center">Pesme za svakog</h2>
+                    <p class="tekst text-center">
+                        Raznovrstan repertoar zadovoljiće i staro i mlado.
+                        <br> Pregledajte spiskove pesama i uverite se sami.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card-deck">
+                    <div class="card bg-light">
+                        <div class="card-title text-center">
+                            <h3>Narodne</h3>
+                            <div id="narodne-box" class="repertoar">
+                                <table id="narodne" class="display" width="100%"></table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-light">
+                        <div class="card-title text-center">
+                            <h3>Zabavne</h3>
+                            <div id="zabavne-box" class="repertoar">
+                                <table id="zabavne" class="display" width="100%"></table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="card-deck">
+                            <div class="card bg-light">
+                                <div class="card-title text-center">
+                                    <h3>Internacionalne</h3>
+                                    <div id="internacionalne-box" class="repertoar">
+                                        <table id="internacionalne" class="display" width="100%"></table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card bg-light">
+                                <div class="card-title text-center">
+                                    <h3>Ženski repertoar</h3>
+                                    <div id="zenske-box" class="repertoar">
+                                        <table id="zenske" class="display" width="100%"></table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEKCIJA UTISCI -->
+    <section id="utisci">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center">Utisci klijenata</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card-deck">
+                        <div class="card bg-transparent border-warning">
+                            <div class="card-body">
+                                <blockquote>
+                                    <ul class="list-group">
+                                        <li class="list-group-item bg-transparent border-0">Gospodin Slavko je prosto sjajan!</li>
+                                        <li class="list-group-item bg-transparent border-0">Svira sve, od Silvane do Nirvane, sa stilom.</li>
+                                        <li class="list-group-item bg-transparent border-0">Zadovoljna svirkom, radujem se novoj prilici.</li>
+                                    </ul>
+                                </blockquote>
+                            </div>
+                            <div class="card-footer text-muted">
+                                <cite><img src="local/img/jela01.png" alt="Jelena Marićević"> Jelena Marićević</cite>
+                            </div>
+                        </div>
+                        <div class="card bg-transparent border-warning">
+                            <div class="card-body">
+                                <blockquote>
+                                    <ul class="list-group">
+                                        <li class="list-group-item bg-transparent border-0">Slavko Matriks je fer i korektan.</li>
+                                        <li class="list-group-item bg-transparent border-0">Kompletan dogovor je ispoštovan. Ne skraćuje pesme i ispunjava svaku želju.</li>
+                                        <li class="list-group-item bg-transparent border-0">Sve preporuke!</li>
+                                    </ul>
+                                </blockquote>
+                            </div>
+                            <div class="card-footer text-muted">
+                                <cite><img src="local/img/nemanja01.png" alt="Nemanja Tapavički"> Nemanja Tapavički</cite>
+                            </div>
+                        </div>
+                        <div class="card bg-transparent border-warning">
+                            <div class="card-body">
+                                <blockquote>
+                                    <ul class="list-group">
+                                        <li class="list-group-item  bg-transparent border-0">Odličan izbor i za manje i za veće društvo.</li>
+                                        <li class="list-group-item  bg-transparent border-0">Slavko Matriks je stara škola!</li>
+                                        <li class="list-group-item  bg-transparent border-0">Ko god želi da oseti čari pravih kafana, ovo je pravi izbor.</li>
+                                    </ul>
+                                </blockquote>
+                            </div>
+                            <div class="card-footer text-muted">
+                                <cite><img src="local/img/marijana01.jpg" alt="Marijana Jelisavčić"> Marijana Jelisavčić</cite>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SEKCIJA CENOVNIK-->
+    <section id="cenovnik">
+        <div id="cenovnik-kontejner" class="container-fluid bg-dark text-white">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center">Prava muzika za pravu cenu</h2>
+                    <p class="tekst text-center">
+                        Princip <strong><em>„Prava muzika za pravu cenu“</em></strong> pruža mogućnost da dobijete kvalitetnu muziku po povoljnoj ceni.
+                        <br> Možete angažovati pevača, pevačicu, oboje, ili kompletan orkestar.
+                        <br> Vaše je samo da pozovete i da se dogovorimo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECTION KONTAKT-->
+    <section id="kontakt">
+        <div id="kontakt-kontejner" class="container-fluid bg-secondary text-white">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center">Kontakt</h2>
+                    <p class="tekst text-center">
+                        Pozovite telefonom.
+                        <br>Pišite na mejl.
+                        <br>Kontaktirajte preko društvenih mreža.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card-deck">
+                        <div class="card bg-transparent border-white">
+                            <h3 class="text-center">Telefon</h3>
+                            <p class="tekst text-center">063-574-313</p>
+                        </div>
+                        <div class="card bg-transparent border-white">
+                            <h3 class="text-center">E-mail</h3>
+                            <p class="tekst text-center">muzika@slavkomatriks.com</p>
+                        </div>
+                        <div class="card bg-transparent border-white">
+                            <h3 class="text-center">Društvene mreže</h3>
+                            <p class="tekst text-center">
+                                <a href="https://www.facebook.com/slavkomatriks"><i class="ion-social-facebook"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  FOOTER-->
+    <footer class="text-center">
+        <div id="footer-kontejner" class="container-fluid bg-dark">
+            <div class="row">
+                <div class="col">
+                    <p class="text-secondary">Copyright &copy; 2017-<script>document.write(new Date().getFullYear())</script> by <span><a class="text-info" href="#">Kodonoto</a></span> All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--vendor js-->
+    <script src="vendor/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="vendor/js/popper.min.js" type="text/javascript"></script>
+    <script src="vendor/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="vendor/js/datatables.min.js" type="text/javascript"></script>
+
+    <!--local js-->
+    <script src="local/js/nav.js" type="text/javascript"></script>
+    <script src="local/js/pesme.js" type="text/javascript"></script>
+
+</body>
+
+</html>
