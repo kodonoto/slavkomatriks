@@ -1,5 +1,3 @@
-# slavkomatriks
-
-Slavko Matriks web site
+# Slavko Matriks web site
 
 Developed with HTML + CSS + JS + Bootstrap + Datatables
