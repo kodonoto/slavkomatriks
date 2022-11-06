@@ -1,51 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- NE ZABORAVI DA IZBACIŠ SVE KOMENTARE KADA ZAVRŠIŠ -->
-
 <head>
     <meta charset="UTF-8">
 
-    <!--bitno za bootstrap-->
+    <!--This line is important for Bootstrap-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta name="author" content="TipTopRobin">
+    <meta name="author" content="Kodonoto">
 
     <meta name="description" content="Slavko Matriks pruža usluge najma muzike za sve vrste proslava, događaja i žurki, kao i usluge najma ozvučenja i organizovanja karaoke zabava.">
 
+    <meta name="keywords" content="slavkomatriks, slavko matriks, muzika po meri, prava muzika za pravu cenu">
+
     <title>Slavko Matriks</title>
 
-    <!--vendor css-->
+    <!--Vendor css-->
     <link rel="stylesheet" href="vendor/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="vendor/css/ionicons.min.css" type="text/css">
     <link rel="stylesheet" href="vendor/css/datatables.min.css" type="text/css">
-    <!-- fontovi za tekst -->
+    <!--Text fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
-    <!-- fontovi za logo -->
+    <!--Logo fonts -->
     <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet" />
 
-    <!--local css-->
+    <!--Local css-->
     <link rel="stylesheet" href="local/css/site.css" type="text/css">
 
 </head>
 
 <body>
 
-    <!--FIKSNA NAVIGACIJA-->
-    <!--    providni navbar od ivice do ivice-->
+    <!--Fixed menu-->
+    <!--Transparent navbar-->
     <nav id="fix-menu" class="navbar navbar-expand-lg fixed-top">
 
-        <!--Logo-link na početak-->
+        <!--Logo-link returns to top-->
         <div id="logo-link" class="logo-link navbar-brand ml-5">
             <a href="#" class="nav-link">Slavko Matriks</a>
         </div>
 
-        <!--hamburger za male ekrane-->
+        <!--Hamburger menu for small screens-->
         <button id="hamb" class="navbar-toggler" data-toggle="collapse" data-target="#menu-items" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><i class="ion-navicon-round icon-small"></i></span>
         </button>
 
-        <!--meni stavke-->
+        <!--Menu items-->
         <div class="collapse navbar-collapse" id="menu-items">
             <ul class="navbar-nav ml-auto mr-auto">
                 <li class="nav-item"><a href="#usluge" class="nav-link text-white">Usluge</a></li>
@@ -57,7 +57,7 @@
         </div>
     </nav>
 
-    <!--NASLOV-->
+    <!--Title-->
     <header id="header" class="jumbotron jumbotron-fluid">
         <div id="hero-text" class="container-fluid">
             <div class="row">
@@ -73,7 +73,7 @@
         </div>
     </header>
 
-    <!--SEKCIJA USLUGE-->
+    <!--Section services-->
     <section id="usluge">
         <div class="container-fluid">
             <div class="row">
@@ -89,7 +89,7 @@
             </div>
             <div class="row">
                 <div class="card-deck">
-                    <div class="card">
+                    <div class="card" style="margin-bottom: 10px;">
                         <i class="ion-music-note icon-big"></i>
                         <div class="card-title text-center">
                             <h3>Muzika</h3>
@@ -117,7 +117,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" style="margin-bottom: 10px;">
                         <i class="ion-mic-c icon-big"></i>
                         <div class="card-title text-center">
                             <h3>Karaoke</h3>
@@ -136,7 +136,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" style="margin-bottom: 10px;">
                         <i class="ion-speakerphone icon-big"></i>
                         <div class="card-title text-center">
                             <h3>Ozvučenje</h3>
@@ -160,7 +160,7 @@
         </div>
     </section>
 
-    <!--SEKCIJA REPERTOAR-->
+    <!--Section repertoire-->
     <section id="repertoar">
         <div id="repertoar-kontejner" class="container-fluid bg-secondary text-white">
             <div class="row">
@@ -174,7 +174,7 @@
             </div>
             <div class="row">
                 <div class="card-deck">
-                    <div class="card bg-light">
+                    <div class="card bg-light" style="margin-bottom: 10px;">
                         <div class="card-title text-center">
                             <h3>Narodne</h3>
                             <div id="narodne-box" class="repertoar">
@@ -182,7 +182,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card bg-light">
+                    <div class="card bg-light" style="margin-bottom: 10px;">
                         <div class="card-title text-center">
                             <h3>Zabavne</h3>
                             <div id="zabavne-box" class="repertoar">
@@ -194,7 +194,7 @@
                 <div class="row">
                     <div class="col">
                         <div class="card-deck">
-                            <div class="card bg-light">
+                            <div class="card bg-light" style="margin-bottom: 10px;">
                                 <div class="card-title text-center">
                                     <h3>Internacionalne</h3>
                                     <div id="internacionalne-box" class="repertoar">
@@ -202,7 +202,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card bg-light">
+                            <div class="card bg-light" style="margin-bottom: 10px;">
                                 <div class="card-title text-center">
                                     <h3>Ženski repertoar</h3>
                                     <div id="zenske-box" class="repertoar">
@@ -217,7 +217,7 @@
         </div>
     </section>
 
-    <!-- SEKCIJA UTISCI -->
+    <!--Section reviews-->
     <section id="utisci">
         <div class="container-fluid">
             <div class="row">
@@ -228,7 +228,7 @@
             <div class="row">
                 <div class="col">
                     <div class="card-deck">
-                        <div class="card bg-transparent border-warning">
+                        <div class="card bg-transparent border-warning" style="margin-bottom: 10px;">
                             <div class="card-body">
                                 <blockquote>
                                     <ul class="list-group">
@@ -242,7 +242,7 @@
                                 <cite><img src="local/img/jela01.png" alt="Jelena Marićević"> Jelena Marićević</cite>
                             </div>
                         </div>
-                        <div class="card bg-transparent border-warning">
+                        <div class="card bg-transparent border-warning" style="margin-bottom: 10px;">
                             <div class="card-body">
                                 <blockquote>
                                     <ul class="list-group">
@@ -256,7 +256,7 @@
                                 <cite><img src="local/img/nemanja01.png" alt="Nemanja Tapavički"> Nemanja Tapavički</cite>
                             </div>
                         </div>
-                        <div class="card bg-transparent border-warning">
+                        <div class="card bg-transparent border-warning" style="margin-bottom: 10px;">
                             <div class="card-body">
                                 <blockquote>
                                     <ul class="list-group">
@@ -276,7 +276,7 @@
         </div>
     </section>
 
-    <!--SEKCIJA CENOVNIK-->
+    <!--Section prices-->
     <section id="cenovnik">
         <div id="cenovnik-kontejner" class="container-fluid bg-dark text-white">
             <div class="row">
@@ -292,7 +292,7 @@
         </div>
     </section>
 
-    <!--SECTION KONTAKT-->
+    <!--Section contact-->
     <section id="kontakt">
         <div id="kontakt-kontejner" class="container-fluid bg-secondary text-white">
             <div class="row">
@@ -300,7 +300,7 @@
                     <h2 class="text-center">Kontakt</h2>
                     <p class="tekst text-center">
                         Pozovite telefonom.
-                        <br>Pišite na mejl.
+                        <!-- <br>Pišite na mejl. -->
                         <br>Kontaktirajte preko društvenih mreža.</p>
                 </div>
             </div>
@@ -311,10 +311,10 @@
                             <h3 class="text-center">Telefon</h3>
                             <p class="tekst text-center">063-574-313</p>
                         </div>
-                        <div class="card bg-transparent border-white">
+                        <!-- <div class="card bg-transparent border-white">
                             <h3 class="text-center">E-mail</h3>
-                            <p class="tekst text-center">muzika@slavkomatriks.com</p>
-                        </div>
+                            <p class="tekst text-center">slavkomatriks@gmail.com</p>
+                        </div> -->
                         <div class="card bg-transparent border-white">
                             <h3 class="text-center">Društvene mreže</h3>
                             <p class="tekst text-center">
@@ -327,7 +327,7 @@
         </div>
     </section>
 
-    <!--  FOOTER-->
+    <!--Footer-->
     <footer class="text-center">
         <div id="footer-kontejner" class="container-fluid bg-dark">
             <div class="row">
@@ -339,13 +339,13 @@
     </footer>
 
 
-    <!--vendor js-->
+    <!--Vendor js-->
     <script src="vendor/js/jquery-3.2.1.min.js" type="text/javascript"></script>
     <script src="vendor/js/popper.min.js" type="text/javascript"></script>
     <script src="vendor/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="vendor/js/datatables.min.js" type="text/javascript"></script>
 
-    <!--local js-->
+    <!--Local js-->
     <script src="local/js/nav.js" type="text/javascript"></script>
     <script src="local/js/pesme.js" type="text/javascript"></script>
 
